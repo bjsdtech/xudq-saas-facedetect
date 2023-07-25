@@ -3,7 +3,7 @@
 
 ## 服务介绍
 
-`xudq-saas-facedetect`是一套基于OpenCV术框架的人脸识别检测服务，采用了基于FastAPI等核心技术框架快速搭建系统。
+`xudq-saas-facedetect`是一套基于OpenCV技术框架的人脸识别检测服务，采用了基于FastAPI等核心技术框架快速搭建系统。
 
 ## 业务功能
 ``` lua
@@ -265,6 +265,7 @@ POST /v1/facedetect/getcheckresult
 ## 检测效果比对
 -原始检测图片：
 ![原始检测图片](https://github.com/bjsdtech/xudq-saas-facedetect/blob/master/data/nvpai.jpg)
+
 -检测结果图片：
 ![检测结果](https://github.com/bjsdtech/xudq-saas-facedetect/blob/master/data/result/T1120220611111841400644.jpg)
 
