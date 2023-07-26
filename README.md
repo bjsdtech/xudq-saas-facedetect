@@ -65,7 +65,7 @@ uvicorn | 0.23.0 | http://www.uvicorn.org/
 ![人脸检测访问方式](https://github.com/bjsdtech/xudq-saas-facedetect/blob/master/support/request002.png)
 
 -提示：
-如果电脑上不能正常显示图片（是因为github的IP地址原因），请尝试手机浏览器访问：https://github.com/bjsdtech/xudq-saas-facedetect
+如果电脑上不能正常显示图片，请尝试手机浏览器访问：https://github.com/bjsdtech/xudq-saas-facedetect
 
 ## 联系方式
 Email：2558404588@qq.com
@@ -270,4 +270,4 @@ POST /v1/facedetect/getcheckresult
 ![检测结果](https://github.com/bjsdtech/xudq-saas-facedetect/blob/master/data/result/T1120220611111841400644.jpg)
 
 -提示：
-如果电脑上不能正常显示图片（是因为github的IP地址原因），请尝试手机浏览器访问：https://github.com/bjsdtech/xudq-saas-facedetect
+如果电脑上不能正常显示图片，请尝试手机浏览器访问：https://github.com/bjsdtech/xudq-saas-facedetect
