@@ -13,7 +13,7 @@ saas_facedetect_app = FastAPI()
 async def home() -> dict:
     return {
         "code": "000000",
-        "msg": "Welcome to bjsdtech face detect SaaS ",
+        "msg": "欢迎使用数动人脸检测服务，目前支持图片、视频、摄像等（单人和多人）人脸检测。",
         "result: ": ""
     }
 
@@ -22,7 +22,7 @@ async def home() -> dict:
 async def home() -> dict:
     return {
         "code": "000000",
-        "msg": "Welcome to bjsdtech face detect SaaS ",
+        "msg": "欢迎使用数动人脸检测服务，目前支持图片、视频、摄像等（单人和多人）人脸检测。",
         "result: ": ""
     }
 
