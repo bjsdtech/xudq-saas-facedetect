@@ -110,11 +110,11 @@ file: file:///Users/bjsdtech/nvpai.jpg
 
 |名称|位置|类型|必选|说明|
 |---|---|---|---|---|
-|version|query|string| 是 |版本号，目前只支持v1|
+|version|query|string| 是 |版本号|
 |picType|query|string| 是 |图片类型：1-URL，2-BASE64|
 |transId|query|string| 是 |业务处理Id，由安全服务团队分配|
 |timestamp|query|string| 是 |请求时间戳|
-|nonce|query|string| 是 |随机整数，6we|
+|nonce|query|string| 是 |随机整数，6位数字|
 |secretId|query|string| 否 |产品秘钥 id ，由安全服务分配，v1版本接口非必需参数|
 |signature|query|string| 否 |请求签名，具体算法可见接口鉴权文档，v1版本接口非必需参数|
 |body|body|object| 否 |none|
@@ -165,7 +165,7 @@ file: file:///Users/bjsdtech/nvpai.jpg
 
 |名称|类型|必选|约束|中文名|说明|
 |---|---|---|---|---|---|
-|» code|string|true|none|返回码，反映了认证服务接口调用和执行的概要结果。当返回码不为 200 时，表示请求未正常执行，返回码描述（msg）对该结果进行了细化补充。|none|
+|» code|string|true|none|返回码|none|
 |» msg|string|true|none|返回码描述|none|
 |» result|object|true|none|检测结果|none|
 |»» faceNumber|integer|true|none|人脸数量|none|
@@ -194,6 +194,7 @@ POST /v1/facedetect/getcheckresult
 
 |名称|位置|类型|必选|说明|
 |---|---|---|---|---|
+|version|query|string| 是 |版本号|
 |transId|query|string| 是 |SaaS 服务平台 返回给客户的业务处理ID|
 |picType|query|string| 否 |图片类型：1-URL，2-BASE64|
 |timestamp|query|string| 是 |请求时间戳|
@@ -230,7 +231,7 @@ POST /v1/facedetect/getcheckresult
 
 |名称|类型|必选|约束|中文名|说明|
 |---|---|---|---|---|---|
-|» code|string|true|none|返回码，反映了认证服务接口调用和执行的概要结果。当返回码不为 200 时，表示请求未正常执行，返回码描述（msg）对该结果进行了细化补充。|none|
+|» code|string|true|none|返回码|none|
 |» msg|string|true|none|返回码描述|none|
 |» result|object|true|none|检测结果|none|
 |»» imageFile|string|true|none|返回图片（base64）|none|
